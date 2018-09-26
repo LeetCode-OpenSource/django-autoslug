@@ -21,7 +21,7 @@ from _version_helper import __version__
 readme = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 
 setup(
-    name     = 'django-autoslug',
+    name     = 'lc-django-autoslug',
     version  = __version__,
     packages = ['autoslug'],
 
@@ -35,8 +35,8 @@ setup(
     long_description = readme,
     author       = 'Andy Mikhailenko',
     author_email = 'neithere@gmail.com',
-    url          = 'https://github.com/neithere/django-autoslug/',
-    download_url = 'https://github.com/neithere/django-autoslug/archive/master.zip',
+    url          = 'https://github.com/LeetCode-OpenSource/django-autoslug/',
+    download_url = 'https://github.com/LeetCode-OpenSource/django-autoslug/archive/master.zip',
     license      = 'GNU Lesser General Public License (LGPL), Version 3',
     keywords     = 'django field slug auto unique transliteration i18n',
     classifiers  = [
